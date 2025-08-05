@@ -75,7 +75,7 @@ For any questions or feedback, please contact:
 
 ---
 
-*Made with ❤️ by Amna Tariq
+Made with ❤️ by Amna Tariq
 
 
 
