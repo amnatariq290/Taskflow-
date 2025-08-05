@@ -16,12 +16,13 @@ TaskFlow is a simple and modern one-page React web app designed to help you orga
 
 ## Demo
 
-You can view the live demo [here](#) *(Add your deployed link if any)*
+<img width="1755" height="2145" alt="image" src="https://github.com/user-attachments/assets/d0fdad85-eda7-4e73-adec-ba05c0d84eda" />
+
 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/YOUR_USERNAME/taskflow.git
+   git clone https://github.com/amnatariq290/taskflow.git
 
 
 2. Navigate into the project directory:
@@ -70,7 +71,6 @@ This project is licensed under the MIT License.
 
 For any questions or feedback, please contact:
 
-- Email: info@taskflow.com
 - GitHub: [https://github.com/amnatariq02](https://github.com/amnatariq290)
 
 ---
@@ -78,7 +78,4 @@ For any questions or feedback, please contact:
 *Made with ❤️ by Amna Tariq
 
 
-
-
-1. Clone the repository:
 
