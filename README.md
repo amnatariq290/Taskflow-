@@ -1,27 +1,26 @@
-# Getting Started with Create React App
+# TaskFlow
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+TaskFlow is a simple and modern one-page React web app designed to help you organize your tasks efficiently. It offers an intuitive interface, task tracking features, reminders, user reviews, and flexible pricing plans.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Easy task tracking with clear UI
+- Smart reminders to never miss deadlines
+- Visual progress insights to boost productivity
+- Responsive design optimized for desktop and mobile devices
+- Animated sections for a modern user experience
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Demo
 
-### `npm test`
+You can view the live demo [here](#) *(Add your deployed link if any)*
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
+1. Clone the repository:
 
