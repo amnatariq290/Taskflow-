@@ -1,38 +1,197 @@
-.App {
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f6df82;
+  color: #221700;
+}
+
+.main-container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.section {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s cubic-bezier(.22, 1, .36, 1);
+  max-width: 1200px;
+  margin: 0 auto 36px auto;
+  padding: 48px 16px;
+  border-radius: 15px;
+  background: rgba(255,255,255,0.85);
+  box-shadow: 0 2px 12px rgba(0,0,0,0.03);
+}
+
+.section.visible {
+  opacity: 1;
+  transform: none;
+}
+
+.hero {
+  text-align: center;
+  background: linear-gradient(120deg, #fcf6b1 70%, #ffa502 100%);
+}
+.hero h1 {
+  font-size: 2.6rem;
+  margin-bottom: 12px;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 28px;
+}
+.hero button {
+  font-size: 1.1rem;
+  padding: 12px 30px;
+  border-radius: 25px;
+  border: none;
+  background: #ffb700;
+  color: #221700;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+  transition: background .2s;
+}
+.hero button:hover {
+  background: #f5da42;
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 18px;
+}
+.feature-card {
+  background: #fffbe8;
+  border-radius: 12px;
+  padding: 26px 22px 20px 22px;
+  box-shadow: 0 1px 6px #ead26857;
+  flex: 1 1 200px;
+  min-width: 230px;
+  max-width: 290px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.feature-card h3 {
+  margin-top: 16px;
+  margin-bottom: 10px;
+}
+.feature-icon {
+  font-size: 2.6rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.reviews {
+  background: #ffe8a1b8;
+}
+.review-list {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+.review-card {
+  background: #fffde5;
+  border-radius: 11px;
+  padding: 17px 19px 10px 19px;
+  min-width: 180px;
+  max-width: 280px;
+  flex: 1 1 180px;
+  box-shadow: 0 1px 8px #fde99d4b;
+  font-size: 1rem;
+  text-align: center;
+}
+.review-emoji {
+  font-size: 2rem;
+}
+.review-name {
+  color: #bd9803;
+  font-weight: 500;
+  display: block;
+  margin-top: 6px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.pricing-list {
+  display: flex;
+  gap: 28px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 18px;
+}
+.pricing-card {
+  background: #fffdf2;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 2px 10px #ffd70054;
+  padding: 24px 16px 30px 16px;
+  min-width: 230px;
+  max-width: 300px;
+  flex: 1 1 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+.price {
+  font-size: 2rem;
+  color: #221700;
+  margin: 14px 0 18px 0;
+  font-weight: bold;
+}
+.pricing-card ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0 0 18px 0;
+}
+.pricing-card li {
+  margin-bottom: 6px;
+}
+.pricing-card button {
+  margin-top: auto;
+  padding: 10px 28px;
+  border-radius: 19px;
+  border: none;
+  color: #fffef2;
+  background-color: #bd9803;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.05rem;
+  transition: background 0.2s;
+}
+.pricing-card button:hover {
+  background: #ebc200;
 }
 
-.App-link {
-  color: #61dafb;
+.footer {
+  background: #f5da42;
+  text-align: center;
+  border-radius: 0 0 18px 18px;
+  font-size: 1rem;
+  padding-top: 26px;
+  padding-bottom: 18px;
+}
+.socials a {
+  font-size: 1.4rem;
+  color: #221700;
+  margin: 0 10px;
+  text-decoration: none;
+  transition: color .14s;
+}
+.socials a:hover {
+  color: #b69000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 870px) {
+  .features-list,
+  .review-list,
+  .pricing-list {
+    flex-direction: column;
+    align-items: center;
   }
-  to {
-    transform: rotate(360deg);
+  .feature-card,
+  .review-card,
+  .pricing-card {
+    max-width: 410px;
   }
 }
+
+
